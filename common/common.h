@@ -2413,6 +2413,7 @@ typedef enum MAG_CAL_STATUS
 #include "./mavlink_msg_open_drone_id_system.h"
 #include "./mavlink_msg_open_drone_id_operator_id.h"
 #include "./mavlink_msg_open_drone_id_message_pack.h"
+#include "./mavlink_msg_fuel_status.h"
 
 // base include
 #include "../minimal/minimal.h"
