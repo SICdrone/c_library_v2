@@ -49,7 +49,7 @@ extern "C" {
 // MESSAGE DEFINITIONS
 #include "./mavlink_msg_fuel_status.h"
 
-// base include
+// // base include
 #include "../common/common.h"
 
 #undef MAVLINK_THIS_XML_IDX
