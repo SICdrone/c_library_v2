@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE FUEL_STATUS PACKING
 
-#define MAVLINK_MSG_ID_FUEL_STATUS 10088
+#define MAVLINK_MSG_ID_FUEL_STATUS 188
 
 
 typedef struct __mavlink_fuel_status_t {
@@ -15,17 +15,17 @@ typedef struct __mavlink_fuel_status_t {
 
 #define MAVLINK_MSG_ID_FUEL_STATUS_LEN 18
 #define MAVLINK_MSG_ID_FUEL_STATUS_MIN_LEN 18
-#define MAVLINK_MSG_ID_10088_LEN 18
-#define MAVLINK_MSG_ID_10088_MIN_LEN 18
+#define MAVLINK_MSG_ID_188_LEN 18
+#define MAVLINK_MSG_ID_188_MIN_LEN 18
 
 #define MAVLINK_MSG_ID_FUEL_STATUS_CRC 216
-#define MAVLINK_MSG_ID_10088_CRC 216
+#define MAVLINK_MSG_ID_188_CRC 216
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_FUEL_STATUS { \
-    10088, \
+    188, \
     "FUEL_STATUS", \
     6, \
     {  { "target_system", NULL, MAVLINK_TYPE_UINT8_T, 0, 16, offsetof(mavlink_fuel_status_t, target_system) }, \
